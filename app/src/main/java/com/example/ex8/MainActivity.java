@@ -12,9 +12,9 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
-    EditText eText;
 
     WebView webV;
+    EditText eText;
 
     Button btn;
 
