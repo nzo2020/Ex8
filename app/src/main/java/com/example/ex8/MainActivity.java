@@ -21,12 +21,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         webV = (WebView) findViewById(R.id.webV);
         eText = findViewById(R.id.eText);
-
         WebSettings webSettings = webV.getSettings();
         webV.setWebViewClient(new MyWebViewClient());
+
         btn = findViewById(R.id.btn);
 
 
