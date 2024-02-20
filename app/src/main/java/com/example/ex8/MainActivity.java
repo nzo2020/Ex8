@@ -12,8 +12,10 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
-    WebView webV;
     EditText eText;
+
+    WebView webV;
+
     Button btn;
 
     String stringUrl;
